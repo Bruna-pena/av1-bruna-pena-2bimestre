@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }
@@ -18,24 +18,38 @@ nav {
 }
 
 nav a {
-  color: rgb(243, 243, 243);
+  color: rgb(6, 39, 68);
   text-decoration: none;
   margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
   padding: 20px;
 }
 
+#sobre {
+  background-color: rgb(191, 235, 255);
+  border: 3px outset #8eb9fa;
+}
+
+.bg-color {
+  background-color: rgb(191, 235, 255);
+}
+
 section {
   margin-bottom: 30px;
-  padding: 15px;
-  border: 1px solid #ccc;
+  padding: 20px;
+  border: 3px outset #8eb9fa;
+  border-radius: 10px;
 }
 
 footer {
   background-color: rgb(144, 183, 255);
-  color: rgb(255, 255, 255);
+  color: rgb(6, 39, 68);
   text-align: center;
   padding: 15px;
 }
